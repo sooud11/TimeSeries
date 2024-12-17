@@ -1,0 +1,20 @@
+Package: TimeSeriesRegression
+Type: Package
+Title: Tools for Time Series Regression and Forecasting
+Version: 0.1.0
+Authors@R:
+    c(
+        person(given = "Saud", family = "Al Seidi", role = c("aut", "cre"), email = "s127084@student.squ.edu.com")
+    )
+Description: Provides tools for preprocessing, modeling, and forecasting time series data.
+    Includes functions for linear regression, ARIMA models, and feature engineering, with
+    support for handling trends, seasonality, and autocorrelation.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    forecast,
+    tseries,
+    zoo
+RoxygenNote: 7.3.2
